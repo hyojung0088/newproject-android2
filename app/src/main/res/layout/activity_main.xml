@@ -26,16 +26,20 @@
         >
 
         <EditText
+            android:id="@+id/contentUserid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="User ID"
+            android:singleLine="true"
             android:layout_marginTop="20dp"
             />
 
         <EditText
+            android:id="@+id/contentUserPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="PassWord"
+            android:singleLine="true"
             android:layout_marginTop="15dp"
             />
 
@@ -46,6 +50,7 @@
             >
 
             <Button
+                android:id="@+id/loginBtn"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -65,6 +70,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/contentText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="와사비네트워크"
